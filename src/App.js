@@ -22,7 +22,7 @@ const App = () => {
         </View>
         <Button>
           <TextButton onPress={() => setAnimationPlay(!animationPlay)}>
-            Play
+            {animationPlay ? 'Stop' : 'Play'}
           </TextButton>
         </Button>
       </SafeView>
